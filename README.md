@@ -1,6 +1,6 @@
 # chrisscho.uk Marketing & Systems Skill Pack
 
-> An authentic suite of product launch, content atomization, systems engineering, and developer marketing skills tailored for **chrisscho.uk** and Total Audio Promo.
+> An authentic suite of product launch, content atomization, systems engineering, reactive PR, and music growth skills tailored for **chrisscho.uk**, NewsJack, and Total Audio Promo.
 
 ---
 
@@ -8,18 +8,22 @@
 
 | Skill | Purpose | Key Framework / Trigger |
 |---|---|---|
-| **`dicce-framework`** | Product launch messaging & campaign structuring. | **D**esire, **I**nterest, **C**onnection, **C**larity, **E**xecution |
+| **`dicce-framework-landing`** | Landing page conversion copy & hero section layout. | **D**esire, **I**nterest, **C**onnection, **C**larity, **E**xecution for landing pages |
+| **`dicce-framework-product`** | In-app UX, onboarding flows, and activation. | **D**esire, **I**nterest, **C**onnection, **C**larity, **E**xecution for product UX |
+| **`newsjack`** | Reactive PR & 30-minute breaking news story scoring. | Powered by **newsjack.cc** (Relevance, Urgency, Viral Potential, First Mover) |
+| **`content-atomizer`** | Multi-channel content cascade from raw build logs/notes. | Longform to 5-channel social assets |
 | **`first-principles-architecture`** | Systems thinking & codebase analysis. | First-principles physics & compute primitives |
-| **`tap-content-atomiser`** | Takes raw source material and atomizes into voice-checked social content across channels. | TAP / Chris Schofield content pipeline |
-| **`bite-sized-code-breakdown`** | Single-concept visual code tips and Before/After code refactoring posts. | Clean code breakdowns |
-| **`developer-product-marketing`** | Technical positioning, architecture showcases, developer landing page copy, and value proposition matrix. | Developer Product Marketing |
-| **`buy-or-bounce`** | Landing page audit skill analyzing conversion friction and visitor retention. | Page Conversion Audit |
-| **`commodity-gate`** | Quality control gate filtering out generic corporate buzzwords and LLM clichés. | Fluff & Cliché Filter |
-| **`copywriting`** | Conversion copywriting, hero section copy, headline frameworks, and objection handling. | Direct Response Copywriting |
-| **`launch-strategy`** | Launch playbooks for Product Hunt, Hacker News, X/Twitter, and GitHub. | Product Launches |
-| **`social-content`** | High-engagement tech threads, LinkedIn carousels, and video breakdown scripts. | Content Strategy |
-| **`marketing-psychology`** | Cognitive framing, loss aversion, social proof, and decision triggers. | Behavioral Economics |
-| **`programmatic-seo`** | Data-driven landing page templates, vs-pages, and alternative landing page structures. | Technical SEO |
+| **`botted-playlist-auditor`** | Spot-checking fake streams & botted playlists. | Stream-to-follower ratios, geographic anomalies |
+| **`indie-artist-growth`** | Release planning & radio/Spotify growth for indie musicians. | 6-week release timeline & Spotify algo triggers |
+| **`bite-sized-code-breakdown`** | Visual code tips and Before/After refactoring posts. | Single-concept code breakdowns |
+| **`developer-product-marketing`** | Technical positioning & developer landing page copy. | Technical Product Marketing |
+| **`buy-or-bounce`** | Landing page conversion friction audit. | Conversion friction & bounce audit |
+| **`commodity-gate`** | Quality gate filtering out corporate fluff and AI clichés. | Fluff & cliché filter |
+| **`copywriting`** | Conversion copywriting, headlines, and objection handling. | Direct Response Copywriting |
+| **`launch-strategy`** | Launch playbooks for Product Hunt, X, Hacker News, and GitHub. | Product Launches |
+| **`social-content`** | High-engagement tech threads, LinkedIn carousels, and video scripts. | Content Strategy |
+| **`marketing-psychology`** | Cognitive framing, loss aversion, and social proof. | Behavioral Economics |
+| **`programmatic-seo`** | Data-driven page generation, vs-pages, and pSEO. | Technical SEO |
 
 ---
 
