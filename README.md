@@ -1,42 +1,96 @@
-# chrisscho.uk Marketing & Systems Skill Pack
+# Marketing Skills for chrisscho.uk, Total Audio Promo, NewsJack, SpotCheck
 
-> An authentic suite of product launch, content atomization, systems engineering, reactive PR, and music growth skills tailored for **chrisscho.uk**, NewsJack, and Total Audio Promo.
+Public marketing skills pack for Chris Schofield's brands. **Memory lives in the private [growth-os](https://github.com/chrisschouk/growth-os) repo; this repo is public recipes only.**
 
----
+## What's here
 
-## Packaged Skills
+Brand-specific marketing skills for Cursor Agents and Grok Bot:
 
-| Skill | Purpose | Key Framework / Trigger |
-|---|---|---|
-| **`dicce-framework-landing`** | Landing page conversion copy & hero section layout. | **D**esire, **I**nterest, **C**onnection, **C**larity, **E**xecution for landing pages |
-| **`dicce-framework-product`** | In-app UX, onboarding flows, and activation. | **D**esire, **I**nterest, **C**onnection, **C**larity, **E**xecution for product UX |
-| **`newsjack`** | Reactive PR & 30-minute breaking news story scoring. | Powered by **newsjack.cc** (Relevance, Urgency, Viral Potential, First Mover) |
-| **`content-atomizer`** | Multi-channel content cascade from raw build logs/notes. | Longform to 5-channel social assets |
-| **`first-principles-architecture`** | Systems thinking & codebase analysis. | First-principles physics & compute primitives |
-| **`botted-playlist-auditor`** | Spot-checking fake streams & botted playlists. | Stream-to-follower ratios, geographic anomalies |
-| **`indie-artist-growth`** | Release planning & radio/Spotify growth for indie musicians. | 6-week release timeline & Spotify algo triggers |
-| **`bite-sized-code-breakdown`** | Visual code tips and Before/After refactoring posts. | Single-concept code breakdowns |
-| **`developer-product-marketing`** | Technical positioning & developer landing page copy. | Technical Product Marketing |
-| **`buy-or-bounce`** | Landing page conversion friction audit. | Conversion friction & bounce audit |
-| **`commodity-gate`** | Quality gate filtering out corporate fluff and AI clichés. | Fluff & cliché filter |
-| **`copywriting`** | Conversion copywriting, headlines, and objection handling. | Direct Response Copywriting |
-| **`launch-strategy`** | Launch playbooks for Product Hunt, X, Hacker News, and GitHub. | Product Launches |
-| **`social-content`** | High-engagement tech threads, LinkedIn carousels, and video scripts. | Content Strategy |
-| **`marketing-psychology`** | Cognitive framing, loss aversion, and social proof. | Behavioral Economics |
-| **`programmatic-seo`** | Data-driven page generation, vs-pages, and pSEO. | Technical SEO |
+- **chrisscho.uk** — £750 AI workflow audit for owner-run businesses (2–20 people)
+- **Total Audio Promo** — £59 radio/playlist/blog pack for indie artists
+- **NewsJack** — reactive PR scoring powered by newsjack.cc
+- **SpotCheck** — botted playlist auditor
 
----
+## Installation
 
-## Global Installation & Antigravity Integration
+### Cursor Agent Skills
 
-Installed globally to `~/.gemini/antigravity/skills/`:
+**Option 1: Install via npx (recommended)**
 
 ```bash
-cp -r /Users/chrisschofield/workspace/chrisscho-uk-marketing-skills/skills/* ~/.gemini/antigravity/skills/
+npx skills add chrisschouk/chrisscho-uk-marketing-skills
 ```
 
----
+**Option 2: Clone into Cursor skills directory**
+
+```bash
+git clone https://github.com/chrisschouk/chrisscho-uk-marketing-skills.git ~/.cursor/skills/chrisscho-uk-marketing-skills
+```
+
+### Grok Bot Skills
+
+Clone skill folders as `SKILL.md` directories:
+
+```bash
+git clone https://github.com/chrisschouk/chrisscho-uk-marketing-skills.git ~/.agents/skills/chrisscho-uk-marketing-skills
+```
+
+### Antigravity (legacy)
+
+```bash
+cp -r skills/* ~/.gemini/antigravity/skills/
+```
+
+## Skills structure
+
+```
+skills/
+├── shared/               # Cross-brand skills
+│   ├── growth-os-read/   # How to read/update marketing memory
+│   ├── commodity-gate/   # Quality check before publishing
+│   └── eval-loop/        # Document failures so agents don't repeat them
+├── chrisschouk/          # chrisscho.uk brand
+│   ├── chrisscho-outreach/   # Cold outreach (cafe voice, 15-min ask)
+│   └── local-seo/            # Brighton local SEO (no city-clone factories)
+├── tap/                  # Total Audio Promo brand
+│   ├── tap-outreach/         # Pack outreach (£59, artists who paid 4 figs)
+│   └── indie-artist-pack/    # Release strategy for pack
+├── newsjack/             # NewsJack brand
+│   └── newsjack-scoring/     # Reactive PR scoring (4 signals)
+├── spotcheck/            # SpotCheck brand
+│   └── botted-playlist-auditor/  # Fake stream detection
+└── _parked/              # Generic skills not in active use
+```
+
+## Brand rules
+
+| Brand | Voice | ICP | Excludes |
+|-------|-------|-----|----------|
+| **chrisscho.uk** | Cafe (conversational, Brighton-specific) | Owner-run, 2–20 people, B2B services | James Groom / JustAir, Southpoint, Brighton Electric (on hold) |
+| **Total Audio Promo** | Indie artist insider (music scene, no corporate fluff) | Artists who paid 4 figs for PR/radio | Holy Basil, LAMIA, Kag Katumba |
+| **NewsJack** | Reactive PR (score > 60 = post now) | Tech/music industry news consumers | n/a |
+| **SpotCheck** | Auditor (terse, technical) | Artists/labels checking playlist authenticity | n/a |
+
+## Global rules (all brands)
+
+- **UK spelling** (optimise not optimize, favour not favor)
+- **No em dashes** (commas or full stops only)
+- **Agents draft, Chris hits send** (never auto-send)
+- **Metric = qualified replies + pipeline** (not messages sent)
+- **Never invent emails, quotes, or customer data**
+- **Every claim needs a source path** (in growth-os)
+
+## Memory vs recipes
+
+- **This public repo (recipes)**: How to do the task, frameworks, templates
+- **growth-os (memory)**: Customer intel, excludes, pricing, eval corrections, what the market is telling us
+
+Before writing copy or outreach, read `growth-os/brands/{brand}/` for excludes and context.
 
 ## Author
 
-Created for **[chrisscho.uk](https://chrisscho.uk)** — Digital Employee Infrastructure & AI Developer Tools.
+**Chris Schofield**  
+[chrisscho.uk](https://chrisscho.uk) — £750 AI Workflow Audit for owner-run businesses (2–20 people)  
+[Total Audio Promo](https://totalaudiopromo.com) — £59 radio/playlist/blog pack for indie artists
+
+Not "AI developer tools". Not "Digital Employee Infrastructure".
