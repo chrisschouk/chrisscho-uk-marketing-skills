@@ -51,10 +51,9 @@ After customer conversations, failed outreach attempts, or when you spot a patte
 - Generic marketing frameworks
 - Copy-pasted playbooks
 - Anything already in this public skills pack
-- API keys or credentials (use Cursor secrets instead)
+- API keys or credentials (use your harness's secrets/environment variables)
 
 ## Related
 
 - This public skill pack: recipes and frameworks
 - growth-os: memory and data
-- Cursor secrets: API keys and credentials
