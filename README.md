@@ -4,7 +4,7 @@ Public marketing skills pack for Chris Schofield's brands. **Memory lives in the
 
 ## What's here
 
-Brand-specific marketing skills for Cursor Agents and Grok Bot:
+Marketing skills for:
 
 - **chrisscho.uk** — £750 AI workflow audit for owner-run businesses (2–20 people)
 - **Total Audio Promo** — £59 radio/playlist/blog pack for indie artists
@@ -13,33 +13,22 @@ Brand-specific marketing skills for Cursor Agents and Grok Bot:
 
 ## Installation
 
-### Cursor Agent Skills
-
-**Option 1: Install via npx (recommended)**
+Primary installation using Agent Skills CLI:
 
 ```bash
 npx skills add chrisschouk/chrisscho-uk-marketing-skills
 ```
 
-**Option 2: Clone into Cursor skills directory**
+This installs to `~/.agents/skills` and automatically creates symlinks for Claude Code, Cursor, Codex, and Gemini when those directories exist.
 
-```bash
-git clone https://github.com/chrisschouk/chrisscho-uk-marketing-skills.git ~/.cursor/skills/chrisscho-uk-marketing-skills
-```
+**Optional**: Clone directly into your harness's skills directory:
 
-### Grok Bot Skills
-
-Clone skill folders as `SKILL.md` directories:
-
-```bash
-git clone https://github.com/chrisschouk/chrisscho-uk-marketing-skills.git ~/.agents/skills/chrisscho-uk-marketing-skills
-```
-
-### Antigravity (legacy)
-
-```bash
-cp -r skills/* ~/.gemini/antigravity/skills/
-```
+| Harness | Common Skills Directory |
+|---------|------------------------|
+| Claude Code | `~/.claude/skills` |
+| Cursor | `~/.cursor/skills` or `~/.agents/skills` |
+| Codex | `~/.codex/skills` |
+| Gemini / Antigravity | `~/.gemini/antigravity/skills` |
 
 ## Skills structure
 
